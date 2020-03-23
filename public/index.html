@@ -18,6 +18,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,11 +29,19 @@
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 
   <!-- CODELAB: Add link rel manifest -->
+  <link rel="manifest" href="/manifest.json">
   <!-- CODELAB: Add iOS meta tags and icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Weather PWA">
+  <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png">
   <!-- CODELAB: Add description here -->
+  <meta name="description" content="A sample weather app">
   <!-- CODELAB: Add meta theme-color -->
+  <meta name="theme-color" content="#2F3BA2" />
 
 </head>
+
 <body>
 
   <header class="header">
@@ -92,9 +101,9 @@
             <span class="value"></span>
           </div>
           <div class="sunset">
-              <span class="label">Sunset:</span>
-              <span class="value"></span>
-            </div>
+            <span class="label">Sunset:</span>
+            <span class="value"></span>
+          </div>
         </div>
       </div>
       <div class="future">
@@ -190,6 +199,7 @@
           <option value="37.757815,-122.5076401">San Francisco, USA</option>
           <option value="31.2243085,120.9162955">Shanghai, China</option>
           <option value="35.6735408,139.5703032">Tokyo, Japan</option>
+          <option value="4.60971,-74.08175">Bogota, Colombia</option>
         </select>
       </div>
       <div class="dialog-buttons">
@@ -207,4 +217,5 @@
   </script>
 
 </body>
+
 </html>
