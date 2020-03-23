@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Your First Progressive Web App Codelab
 
 These are the resource files needed for the
@@ -52,3 +53,6 @@ specific language governing permissions and limitations under the License.
 
 [codelab]: https://codelabs.developers.google.com/codelabs/your-first-pwapp/
 [git-issue]: https://github.com/googlecodelabs/your-first-pwapp/issues
+=======
+#pwa-discovery
+>>>>>>> c216b44b2afbeeb631fe2371559c9c70cfe68787
